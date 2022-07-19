@@ -1,0 +1,36 @@
+En este archivo logragre definir los conceptos de 
+VARIABLES, STRINGS, FUNCIONES, DECLARACIONES "IF", VALORES BOOLEANOS
+
+VARIABLES:
+Este es un termino que se le usa a todas aquellas
+funciones que podemos llegar a usar para iniciar la funcion de un codigo, estas funciones 
+logran dar valor de algo para usar mas tarde, estas se pueden configurar y restablecer a cualquier tipo
+y tampoco es necesario declarar su tipo al inicar la variable. 
+ALGUNAS DE ELLAS SON:
+- var - let - const 
+# var = es la forma mas comun de declarar una variable ya que es una palabra generica para variable
+# let = viene siendo muy parecida a (var) pero diferente ya que difiere al crear un nuevo nivel de scope
+# const = lo mas importante de esta variable es que no se podra cambiar. viene siendo algo constante 
+
+STRINGS:
+Para explicarlo de una forma facil siemplemente es el uso de palabras en JS, osea la deficion que se le da al texto. y para hacer uso de ellas siempre debemos encerrarla entre comillas " " de esta manera el leguaje de texto en este caso JS sabra que es una string (str) llammadas tambien bloques de texto o cadena. 
+# STRING = "CUALQUIER PALABRA"
+
+FUNCIONES (ARGUMENTOS,RETURN)
+las funciones vienen siendo algo super importante a la hora de inicar un codigo ya que estas son las encargadas de ejecutar codigos al momento de invocar una funcion debemos elegirla con la palabra "function" donde seguidamente nos va pedir que le demos un nombre a la funcion, el cual tenemos que ser muy precisos al darle el nombre ya que hara lo que queramos haga. por ejemplo si queremos una funcion que haga una operacion de suma la llamaremos suma ejemplo: fuction suma () {}... en los parentesis iran los ARGUMENTOS (lo que queremos que se ejecute) y dentro de los corchetes ira el codigo que queremos que se ejecute. 
+# Fuction suma(a,b) {
+    return = a + b
+    }; 
+Y para lograr explicar la aplicacion de return en las funciones, es darnos un valor retorno final, como si le dijeramos a la funcion que en el momento que use return me ejecute el codigo puesto y me regrese un valor final.
+
+DECLARACION IF 
+Al momento de usar o necesitar if tenemos que saber que la unica respuesta que vamos a recibir es verdadero o falso. (true o false) ya que logra darnos una respuesta sencilla de solo dos opciones
+
+VALORES BOOLEANOS 
+Son todos aquellos valores que lograr igualar o comparar una pregunta para que nuestra respuesta sea true o false al momento de implementarlo lo haremos con al declaracion if 
+algunos valores booleanos son: 
+>, <, =.  
+
+
+
+
