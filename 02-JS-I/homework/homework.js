@@ -1,5 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
+const { stringify } = require("git-url-parse");
+
 // Crea una variable "string", puede contener lo que quieras:
 const nuevaString = "logrado"; 
 
@@ -106,61 +108,69 @@ function obtenerResto(x, y) {
   // Tu código:
 };
 
-function esPar(num) { 
-num = (8 / 2 )
-if ( num == 4) return true; return false
+function esPar(num) {
+  if (num % 2 == 0) return true; return false
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
   
-};
-
-
+}; 
 function esImpar(num) {
+  if ( num % 2 == 1) return true; 
+  return false 
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
   
 }
 
-function elevarAlCuadrado(num) {
+function elevarAlCuadrado(num) { 
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  
+return (num**2);
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  
+  return (num** 3);
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
+  return Math.pow (num, exponent); 
   
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
+  return Math.round (num) 
   
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
+  return Math.ceil (num);
   
 }
 
-function numeroRandom() {
+function numeroRandom() { 
+   return Math.random ()* 1;  
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
   
 }
 
 function esPositivo(numero) {
+  if (numero > 0) 
+  return "Es positivo"
+  else if ( numero < 0) 
+  return "Es negativo"
+  else (numero == 0 ); return false;
   //La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo. 
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
@@ -172,25 +182,33 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
+  return (str + "!");
+  
+
 }
 
 function combinarNombres(nombre, apellido) {
+
+ 
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  
+  return (nombre + " " + apellido);
+
 }
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
+  return ("Hola" + " " + nombre + "!");
   
 }
 
-function obtenerAreaRectangulo(alto, ancho) {
+function obtenerAreaRectangulo(alto, ancho) { 
+ return obtenerAreaRectangulo = ( alto * ancho ) 
   // Retornar el area de un rectángulo teniendo su altura y ancho
-  // Tu código:
+  // Tu código: 
   
 }
 
@@ -198,6 +216,9 @@ function obtenerAreaRectangulo(alto, ancho) {
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
+
+  return retornarPerimetro = ( lado* 4 ); 
+
   
 }
 
@@ -205,6 +226,7 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
+  return areaDelTriangulo = ( base * altura / 2 );
 
 }
 
@@ -213,7 +235,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  
+  return deEuroAdolar = ( euro * 1.20 );
 }
 
 
@@ -223,8 +245,16 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  
+  if ( letra.length > 1) return "Dato incorrecto"
+  else if ( letra == "a"
+          | letra == "e"
+          | letra == "i"
+          | letra == "o"
+          | letra == "u" ) return "Es vocal" 
+  else return "Dato incorrecto"
 }
+
+
 
 
 
