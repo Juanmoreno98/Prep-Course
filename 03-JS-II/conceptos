@@ -1,0 +1,15 @@
+En este archivo lograre definir los siguientes operadores logicos y el bucle for
+
+BUCLE FOR: principalmente es un ciclo que tiene como inicio un valor determinado que posteriormente
+se le agrega hasta que punto se ejecutara la accion y finalmente elegimos de cuanto a cuanto 
+queremos que avance la accion. 1 en 1, 2 en 2 y asi sucesivamente!
+
+OPERADOR logico && o AND: Este operador compara dos posibles resultados en caso de ser los dos verdaderos 
+retornara el valor de true; pero en caso de comparar los resultados y uno de ellos es false retornarta false.
+es importante que si queremos true todos los valores deberan ser true de lo contrario no sera asi.
+
+OPERADOR logico || ó OR: En este caso el operador comparara los resultados y si uno de ellos es true sin importar el 
+resultado de los demas retornara true, para este operador lo unico que necesita para retornar true sera que solo uno 
+de ellos lo sea.
+
+OPERADOR !== Ó NOT: Y por ultimo tenemos este operador con el fin de negar la posible situacion con la que se compare siemore votara el resultado contrario si un valor llegara a ser true y usamos este operador retornara false. "es es su decirnos es distinto que"
