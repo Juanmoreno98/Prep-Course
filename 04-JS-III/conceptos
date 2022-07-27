@@ -1,0 +1,7 @@
+DEFINICIO DE ARRAY 
+La forma que encuentro para definir un ARRAY es una varible que inicialmente la declraramos array cuando 
+usamos los braquets [] al momento de usarlo ya estamos diciendo que es un array, alli vamos a poder guardar 
+cualquier tipo de objeto y tomara la misma funcion igual a la de un baul ya que podemos guardar una cantidad
+infinita de objetos, lo interestante de un array es que podemos llamar objetos y agregar objetos cuando queramos
+siempre y cuando lo hagamos de la manera correcta, al momento de llamarlos podemos interactuar con ellos de una 
+manera mucho mas rapida.
