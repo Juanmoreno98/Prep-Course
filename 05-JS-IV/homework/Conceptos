@@ -1,0 +1,20 @@
+OBJETOS.
+el termino objeto lo puedo definir como la manera de crear propiedades con un valor determinado
+para cada propiedad, las propiedades dentro de una objeto se guardan segun su clasificacion por el nombre que le 
+damos, por esto mismo tanto a la hora de agregar como a la hora de llamar una propiedad debemos hacerlo 
+segun su nombre. 
+
+PROPIEDADES
+Son la cantidad de items que tiene un objeto lo cual puede ser una cantidad infinita, cada propiedad
+debera tener un valor asignado ya que es una manera muy organizada de tener informacionn, estas propiedades 
+deben ser separadas una con otro me diante "comas" ( , ).
+
+METODOS
+Para el caso de los objetos tenemos dos metodos que usaremos para llamar informacion esos seran el metodo
+de puntucion . y el metodo de brackets []
+
+BUCLE FOR IN 
+Este bucle sera usadp en los objetos y tendra la misma funcion que bluce for. recorrera todo el objeto con
+diferencia que no lo hara por posicion de numeros, en este caso lo hara segun el nomre 
+for ( "" in objeto).
+
