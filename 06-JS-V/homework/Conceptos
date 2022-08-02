@@ -1,0 +1,8 @@
+Prototype: prototype lo podemos definir como la ultima opocion que tiene una instacia class para ejecutar
+una funcion, todo lo que se guarde el el prototype se ejecuara solo en el momento en que intente ejecutar 
+las demas funciones que hay dentro de un constructor si no se encuentra dentro de este lo que hara a 
+continuacion es en dirijirse al prototype de la class y ejecutara el metodo que alli se encuentre.
+
+Constructor: al momento de crear un constructor cremos una especie de plantilla que vamos a poder usar de una 
+manera mucho mas sencilla que al declarar variables y asisgnarles valores, con este constructor creamos nuestra plantilla una sola vez y cada vez que queramos agragarle un nuevo objeto con propiedades y valores 
+usameremos la funcion new. esto nos ayudara a gregar nuevos abjetos con los mismos valores que tiene constructor. y nos evitara consumir espacio en nuestros archivos.
