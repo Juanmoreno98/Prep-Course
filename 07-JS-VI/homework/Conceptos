@@ -1,0 +1,3 @@
+La forma mas sencilla que veo para definir las funciones callback es de como se ejecuta la aplicacion 
+de una metodo dentro de una funcion, de esta manera se definen parametros dentro de cada funcion 
+y se pueden aplicar de diferentes formas usando las funciones ya existentes dentro de JS.
