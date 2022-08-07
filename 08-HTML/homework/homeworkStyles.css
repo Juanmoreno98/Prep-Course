@@ -1,0 +1,29 @@
+#QTY{
+    display: flex;
+    justify-content: center;
+}
+.ING{
+    justify-content: center;
+    color: orange;
+    background-color: black;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+#SEC{
+    display: flex;
+    justify-content: center;
+}
+#PRC{
+    background: url(https://www.recetasdesbieta.com/wp-content/uploads/2018/04/brioche-abuela-1.jpg);
+    background-size: 100%;
+}
+#Pocision{
+    display:flex;
+    justify-content:center;
+
+    
+}
