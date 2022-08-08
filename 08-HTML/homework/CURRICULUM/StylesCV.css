@@ -1,0 +1,66 @@
+#Fondo{
+    background: url(https://img.freepik.com/premium-photo/abstract-luxury-light-cream-beige-brown-like-cotton-silk-texture-pattern-background_1258-71494.jpg?w=2000);
+    background-size: 100%;
+}
+#titulo1{
+    display: flex;
+    justify-content: center;
+}
+.titulos2{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+.titulos3{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contenido{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.contenido2{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+.contenido3{
+    background-color: white;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border: groove 5px;
+
+}
+#fotos{
+    width: 500px;
+    padding-left: 33%;
+    
+}
+.foto1{
+    width: 250px;
+    display: inline-block;
+    padding-inline-start: 13%;
+    
+}
+.foto2{
+    width: 250px;
+    display: inline-block;
+    padding-inline-start: 9%;
+
+}
+.foto3{
+    width: 250px;
+    display: inline-block;
+    padding-inline-start: 8%;
+
+}
+#hobbies{
+    display: inline-block;
+    padding-inline-start: 18%
+}
